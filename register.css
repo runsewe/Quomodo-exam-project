@@ -85,3 +85,12 @@
     /* or 20px */
     color: #7D7D7D;
 }
+
+.reg a {
+    color: white;
+}
+
+.reg span a {
+    color: #42505C;
+    ;
+}

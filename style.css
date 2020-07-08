@@ -1,0 +1,257 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .firstMain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 769px;
+        background: #4031B7;
+        z-index: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px 50px 0px 50px;
+        z-index: 99;
+        align-items: center;
+    }
+    
+    .logo img {
+        position: relative;
+        background: url(proqura_logo_2);
+    }
+    
+    .navEnded {
+        display: flex;
+        flex-direction: row;
+        flex: 2;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .sign-up {
+        width: 100px;
+        height: 36px;
+        border: 1px solid #B6D2E3;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    .nav-item {
+        font-family: Circular;
+        font-size: 18px;
+        flex: 1;
+        line-height: 23px;
+        /* identical to box height */
+        color: #B6D2E3;
+    }
+    
+    .nav-iteme {
+        font-family: Circular;
+        font-size: 18px;
+        flex: 1;
+        color: #B6D2E3;
+    }
+    
+    .heade {
+        flex-direction: row;
+        display: flex;
+        color: #FFF8F8;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .hside {
+        position: relative;
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-items: flex-start;
+        margin-left: 10%;
+        max-width: 800px;
+        top: 100px;
+        margin-right: 30%;
+    }
+    
+    .hside h1 {
+        position: relative;
+        font-family: Recoleta;
+        font-size: 64px;
+        /* or 69px */
+        color: #FFF8F8;
+    }
+    
+    .hside h1 span {
+        color: aquamarine;
+    }
+    
+    .hside p {
+        font-family: Recoleta;
+        font-size: 24px;
+        color: #B6D2E3;
+    }
+    
+    .heade img {
+        right: 0;
+        top: 217px;
+        width: 488px;
+        height: 372px;
+        position: absolute;
+    }
+    
+    .heade .demo {
+        /* Get Started */
+        border: 1px solid #B6D2E3;
+        box-sizing: border-box;
+        font-family: Circular;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        border-radius: 5px;
+    }
+    
+    .secondMain {
+        padding-top: 100px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 769px;
+    }
+    
+    .secondMain h2 {
+        font-family: Recoleta;
+        font-size: 48px;
+        line-height: 65px;
+        color: #111028;
+    }
+    
+    .sm-mode {
+        margin: 50px 0px 50px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .sm-mode img {
+        background: #4031B7;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    /*third pane*/
+    
+    .thirdMain {
+        height: 1278px;
+        background: #FBFAF9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .thirdMain img {
+        align-self: center;
+        width: 70%;
+        margin: 20px;
+    }
+    
+    .thirdMain .sm-mode {
+        align-self: center;
+        justify-content: space-between;
+    }
+    
+    .thirdMain .sm-mode .modeCl {
+        align-self: center;
+        margin: 20px;
+    }
+    /*fourth pane*/
+    
+    .fourthMain {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fourOne {
+        padding: 50px;
+        flex: 10;
+        width: 80%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .fourTwo {
+        flex: 2;
+        background: linear-gradient(90deg, #6A11CB -0.25%, #3C53EB 64.09%, #6A79DD 95.78%);
+        height: 90vh;
+    }
+    
+    .fourOne .fourSide {
+        position: relative;
+        width: 50%;
+        flex: 6;
+        margin-top: 100px;
+    }
+    
+    .fourOne .fourSide h1 {
+        font-family: Recoleta;
+        font-size: 68px;
+        line-height: 65px;
+        color: #111028;
+    }
+    
+    .fourOne .fourSide p {
+        font-family: Circular;
+        font-size: 18px;
+        line-height: 23px;
+        /* identical to box height */
+        color: #828282;
+    }
+    
+    .fourOne .fourSide .s-mode {
+        flex-direction: column;
+        display: flex;
+        top: 50px;
+        left: 0;
+        justify-content: space-around;
+    }
+    
+    .fourOne .fourSide .s-mode .modeCl {
+        flex-direction: row;
+        display: flex;
+        left: 0;
+        justify-content: space-evenly;
+    }
+    
+    .fourOne .fourSide .s-mode .modeCl img {
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        background: #4031B7;
+        padding: 5px;
+    }
+    
+    .fourthMain .fourTwo img {
+        position: relative;
+        width: 649px;
+        height: 526px;
+        top: 100px;
+        left: -400px;
+    }

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: absolute;
+    width: 146px;
+    height: 37px;
+    left: 136px;
+    top: 32px;
+    background: url(images/proqura_logo_purple.png);
+}
+
+.right {
+    flex: 4;
+    background: url('images/Picture.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reg {
+    width: 80%;
+    margin: 100px 100px 50px 50px;
+    padding: 100px 100px;
+    align-self: center;
+    align-content: space-around;
+}
+
+.note {
+    padding: 10px;
+    border-radius: 2px;
+    background: #6a79dd1f;
+    font-family: Circular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 145.5%;
+    /* or 17px */
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.regForm label {
+    color: #6A79DD;
+    font-weight: bold;
+}
+
+.regForm .btn {
+    background: #6A79DD;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+}
+
+.reg h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #42505C;
+    margin-bottom: 50px;
+}
+
+.reg .welcome p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145.5%;
+    /* or 20px */
+    color: #7D7D7D;
+}

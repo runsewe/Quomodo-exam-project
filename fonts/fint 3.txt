@@ -1,0 +1,10 @@
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Neuton', serif;
+font-family: 'Rufina', serif;
+font-family: 'Saira Condensed', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Neuton|Rufina|Saira+Condensed&display=swap" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Neuton|Rufina|Saira+Condensed&display=swap');
+</style>

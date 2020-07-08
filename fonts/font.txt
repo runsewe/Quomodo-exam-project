@@ -1,0 +1,12 @@
+<link href="https://fonts.googleapis.com/css?family=Courgette|Finger+Paint|Gloria+Hallelujah|Grenze|Homemade+Apple|Mansalva|Monoton|Notable|Press+Start+2P|Satisfy&display=swap" rel="stylesheet">
+
+font-family: 'Courgette', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Notable', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Mansalva', cursive;
+font-family: 'Grenze', serif;
